@@ -103,7 +103,7 @@ import Language.Rust.Data.Position
 import Language.Rust.Syntax.AST
 import Language.Rust.Syntax.Token
 
-import Data.Text.Prettyprint.Doc hiding ( (<+>), hsep, indent, vsep )
+import Prettyprinter hiding ( (<+>), hsep, indent, vsep )
 
 import Data.Maybe               ( maybeToList, fromMaybe )
 import Data.Foldable            ( toList )
